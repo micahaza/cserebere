@@ -42,6 +42,7 @@ var config = {
     'DK':           'Jobbik',
     'Demokratikus Koalíció': 'Jobbik Magyarországért Mozgalom',
     'Habony':       'Raszputyin',
+    'Habony Árpád': 'Raszputyin',
     'MTVA':         'propagandaadó',
     'RTL':          'TV2',
     'ATV':          'HírTV',
