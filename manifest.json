@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "MKKP cserebere extension",
+  "description": "This extension replaces specific words on the current page",
+  "version": "1.0",
+  "author": "PeZo <bajgli@gmail.com>",
+  "content_scripts": [ {
+    "js": [ "cserebere.js"  ],
+    "matches": [ "http://*/*", "https://*/*" ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
