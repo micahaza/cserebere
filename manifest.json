@@ -4,8 +4,13 @@
   "description": "This extension replaces specific words on the current page",
   "version": "1.0",
   "author": "PeZo <bajgli@gmail.com>",
+  "icons": {
+    "32": "images/logo32.png",
+    "64": "images/logo64.png",
+    "128": "images/logo128.png"
+  },
   "content_scripts": [ {
-    "js": [ "cserebere.js"  ],
+    "js": [ "dezinfo.js"  ],
     "matches": [ "http://*/*", "https://*/*" ]
     }
   ],
